@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="Komouters.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="containerr">
+        
+
+
+        <button class="btn btn-warning"><a href="meinExam.html">Asas saifa</a></button>
+        <button id="addTodo" style="margin-left: 5px;" class="btn btn-info">Yeni komputer</button>
+
+         <!-- <div class="todos"></div> -->
+
+        
+        
+         
+    </div>
+
+    <table class="table table-bordered todos">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Mark</th>
+                <th>Img</th>
+                <th>Options</th>
+                <th>Amaliyetler</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+    </table> 
+
+     <div class="my-modal"> 
+        <h1 style="margin-left: 47%;">Yeni</h1>
+        <div class="hah">
+             <div> 
+                 <label for="mark">Mark:</label> 
+                 <input class="form-control hah1" type="text" id="mark"> 
+             </div> 
+             <div> 
+                 <label class="hah2" for="">Emele yaddas(GB):</label> 
+                 <input class="form-control hah2" type="text" id=""> 
+             </div> 
+        </div>     
+
+        <div class="hah">
+             <div> 
+                 <label for="">Ad:</label> 
+                 <input class="form-control hah1" type="text" id=""> 
+             </div> 
+             <div> 
+                 <label class="hah2" for="">Merkezi prosessor:</label> 
+                 <input class="form-control hah2" type="text" id=""> 
+             </div> 
+        </div>    
+        
+        <div class="hah">
+            <div> 
+                <label for="prise">Qiymet:</label> 
+                <input class="form-control hah1" type="text" id="prise"> 
+            </div> 
+            <div> 
+                <label class="hah2" for="">Daimi yaddas(GB):</label> 
+                <input class="form-control hah2" type="text" id=""> 
+            </div> 
+       </div> 
+       
+     <div class="hah">
+        <div> 
+            <label for="tesvir">Tesvir:</label> 
+            <input class="form-control hah1" type="text" id="tesvir"> 
+        </div> 
+        <div> 
+            <label class="hah2" for="">Daimi yaddas tipi:</label> 
+            <input class="form-control hah2" type="text" id=""> 
+        </div> 
+      </div> 
+
+      <div class="hah">
+        <div> 
+            <label for="">Yeni:</label> 
+            <input class="form-control hah1" type="text" id=""> 
+        </div> 
+        <div> 
+            <label class="hah2" for="">Emeliyyat sistemi</label> 
+            <input class="form-control hah2" type="text" id=""> 
+        </div> 
+   </div> 
+
+   <div class="hah">
+    <div> 
+        <label for="img">Sekil:</label> 
+        <input class="form-control hah1" type="text" id="img"> 
+    </div> 
+    <div> 
+        <label class="hah2" for="">Video kart(GB)</label> 
+        <input class="form-control hah2" type="text" id=""> 
+    </div> 
+</div> 
+             <img src="" id="modalImg" alt="">
+
+             <div class="modal-footer"> 
+                 <button id="save-todo" style="background-color: rgb(43, 91, 250); width: 80px; height: 30px; border-radius: 5px; border: none; font-family: sans-serif;">Save todo</button> 
+                 <button id="close" style="background-color: rgb(43, 91, 250); width: 80px; height: 30px; border-radius: 5px; border: none; font-family: sans-serif; margin-left: 10px;">Close</button> 
+             </div>    
+     </div> 
+  
+      
+
+
+
+
+
+
+
+
+
+     <!-- <div class="my-modal">  -->
+        <!-- <div>  -->
+            <!-- <label for="mark">Mark:</label>  -->
+            <!-- <input class="form-control" type="text" id="mark">  -->
+        <!-- </div>  -->
+        <!-- <div>  -->
+            <!-- <label for="img">Image:</label>  -->
+            <!-- <input class="form-control" type="text" id="img">  -->
+        <!-- </div>  -->
+        <!-- <div>  -->
+            <!-- <label for="prise">Prise:</label>  -->
+            <!-- <input class="form-control" type="text" id="prise">  -->
+        <!-- </div>  -->
+        <!-- <div>  -->
+            <!-- <label for="tesvir">Tesvir:</label>  -->
+            <!-- <input class="form-control" type="text" id="tesvir">  -->
+        <!-- </div>  -->
+        <!-- <img src="" id="modalImg" alt=""> -->
+<!--  -->
+        <!-- <div class="modal-footer">  -->
+            <!-- <button id="save-todo" style="background-color: rgb(43, 91, 250); width: 80px; height: 30px; border-radius: 5px; border: none; font-family: sans-serif;">Save todo</button>  -->
+            <!-- <button id="close" style="background-color: rgb(43, 91, 250); width: 80px; height: 30px; border-radius: 5px; border: none; font-family: sans-serif;">Close</button>  -->
+        <!-- </div>     -->
+<!-- </div>  -->
+<!--  -->
+
+
+
+    <!-- <div class="my-modal"> -->
+        <!-- <div class="modal-title"> -->
+            <!-- <h2>Add Todo</h2> -->
+        <!-- </div> -->
+        <!-- <div class="my-modal-body"> -->
+            <!-- <label for="">Todo Title</label> -->
+            <!-- <input id="title" class="form-control" style="display: block; width: 80%;height: 30px; border-radius: 5px;" type="text"> -->
+            <!-- <textarea id=""></textarea> -->
+        <!-- </div> -->
+        <!-- <div class="modal-footer"> -->
+            <!-- <button id="save-todo" style="background-color: rgb(43, 91, 250); width: 80px; height: 30px; border-radius: 5px; border: none; font-family: sans-serif;">Save todo</button> -->
+            <!-- <button id="close" style="background-color: rgb(43, 91, 250); width: 80px; height: 30px; border-radius: 5px; border: none; font-family: sans-serif;">Close</button> -->
+        <!-- </div> -->
+    <!-- </div> -->
+<!--  -->
+    <!--  -->
+
+    <!-- <div class="my-modal"> -->
+        <!-- <div class="modal-title"> -->
+            <!-- <h2>Add Todo</h2> -->
+        <!-- </div> -->
+        <!-- <div class="my-modal-body"> -->
+            <!-- <div> -->
+                <!-- <label for="mark">Mark:</label> -->
+                <!-- <input type="text" id="mark"> -->
+            <!-- </div> -->
+            <!-- <div> -->
+                <!-- <label for="img">Image:</label> -->
+                <!-- <input type="text" id="img"> -->
+            <!-- </div> -->
+        <!-- </div> -->
+        <!-- <div class="modal-footer"> -->
+            <!-- <button id="save-todo" style="background-color: rgb(43, 91, 250); width: 80px; height: 30px; border-radius: 5px; border: none; font-family: sans-serif;">Save todo</button> -->
+            <!-- <button id="close" style="background-color: rgb(43, 91, 250); width: 80px; height: 30px; border-radius: 5px; border: none; font-family: sans-serif;">Close</button> -->
+        <!-- </div> -->
+    <!-- </div> -->
+
+
+
+
+
+
+
+    <script src="code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="Komouters.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
